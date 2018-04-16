@@ -9,15 +9,17 @@ BOJ = Baekjoon Online Judge -> https://www.acmicpc.net/
 ---
 git 사용법
 
-1. 초기 설정 - 원격 저장을 위하 아이디 비번 
+1. 초기 설정 - 원격 저장을 위하 아이디 비번
 git config --global user.name [user name]    작업자 이름 설정
 git config --global user.email [user email]   작업자 이메일 설정
 git config --global --list                  설정값(이름 및 메일등 ) 확인
 
 2. local repo 생성 
+
 git init  ->  git 저장소(repo) 만들기
 
 3. 원격 설정
+
 git remote add [remote name] [remote addres]  별명으로 원격지주소를 저장
 git remote rm [remote name]                             별명의 원격지를 삭제
 git remote rename [remote name] [new name]   별명을 새로운 별명으로 변경
