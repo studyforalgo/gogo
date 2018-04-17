@@ -32,6 +32,18 @@ git remote rename [remote name] [new name]   별명을 새로운 별명으로 �
 
 
 ---
+특정 파일 서버에 push
+
+git log --pretty=oneline
+
+output : 4f5c2..
+
+git checkout master
+
+git cherry-pick 4f5c2..
+
+---
+
 branch 업데이트
 git fetch [remote name]                  remote의 모든 정보를 가져옴(모든 branch)
 
