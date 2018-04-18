@@ -40,6 +40,8 @@ output : 4f5c2..
 
 git checkout master
 
+(git pull) // push하기전에 pull해야 충돌 안
+
 git cherry-pick 4f5c2..
 
 ---
